@@ -53,7 +53,8 @@
 
 					<div class="header__top-phone">
 						<div class="phone">8(911)908-30-43</div>
-						<a href="#" class="phone_link">Заказать звонок!</a>
+						<a href="#" class="phone_link" data-fancybox data-src="#modal"
+						href="javascript:;">Заказать звонок!</a>
 					</div>
 				</div>
 			</div>
@@ -451,6 +452,15 @@
 			</div>
 		</div>
 	</footer>
+	<div id="modal">
+		<form enctype="multipart/form-data" method="post" action="#" class="contacts-form">
+			<h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+			<input type="text" class="input input-name " placeholder="Ваше имя" required>
+			<input type="text" class="input input-phone" id="phone2" placeholder="Ваш телефон" required>
+			<button class="button">Отправить</button>
+		</form>
+	</div>
+	<a href="#" class="back-to-top"> <img src="img/top.svg" alt=""></a>
 	<script src="js/scripts.min.js"></script>
 
 </body>
